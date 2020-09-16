@@ -18,13 +18,8 @@ set cpo&vim
 
 " deno-vim "
 
-function s:DenoFmt()
-  :silent exec "%!" . g:deno_command . " fmt -"
-endfunction
-
-
 if !exists(":DenoFmt")
-  command -nargs=0  DenoFmt  :call s:DenoFmt()
+  command -nargs=0  DenoFmt  :call deno#Format()
 endif
 
 " end of deno-vim "

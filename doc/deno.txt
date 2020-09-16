@@ -1,0 +1,9 @@
+*vim-deno.txt*        A deno plugin for vim.
+
+           -------------------------------------------------------
+                 vim-deno: plugin wrapper for deno
+           -------------------------------------------------------
+
+Author: Guillaume Kessibi <gui@odc.live>
+WebSite: https://deno.land
+Repository: https://github.com/kessibi/vim-deno
